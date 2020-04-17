@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100%;
+}
+
+h4 {
+    color: #fff;
+}
+
+h5 {
+    color: #9c9a9a;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-gray {
+    background: #E9EBEE;
+}
+
+.container {
+    width: 960px;
+    height: 640px;
+    border: 2px solid #000;
+}
+
+
+/*barra*/
+
+.barra {
+    width: 200px !important;
+}
+
+.barra .barra-contents {
+    height: 100%;
+}
+
+.account {
+    width: 100%;
+}
+
+.barra-contents a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 5%;
+}
+
+.barra-contents a:hover {
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.account a {
+    color: #000 !important;
+}
+
+
+/*Contenido*/
+
+.contenido {
+    width: 100%;
+    height: 100%;
+    padding: 12px 5px;
+}
+
+.contenido .row {
+    margin: 0px;
+}
+
+.box {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 1px 4px 10px 0 rgba(0, 0, 0, .2);
+    background: #fff;
+    margin-top: 10px;
+    padding: 5px;
+    height: 160px;
+    width: 90%;
+}
+
+.box-1 {
+    width: 49%;
+}
+
+.box-2 {
+    width: 32.5%;
+}
+
+.btn {
+    padding: 5px 3px !important;
+}
+
+.box-2:nth-child(3) i {
+    font-size: 50px;
+}
+
+
+/* .box-1 {
+    width: 48% !important;
+} */
